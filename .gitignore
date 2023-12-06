@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+## atcoder-cli specific files
+contest.acc.json
+tests
