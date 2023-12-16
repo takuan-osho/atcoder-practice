@@ -21,14 +21,14 @@ int main() {
   int N;
   cin >> N;
   int sum_money = 0;
-  int day = 0;
+  int day = 1;
 
   while (true) {
-    day += 1;
     sum_money += day;
     if (sum_money >= N) {
       break;
     }
+    day++;
   }
   cout << day << endl;
   return 0;
