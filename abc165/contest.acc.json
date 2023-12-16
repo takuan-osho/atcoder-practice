@@ -19,7 +19,11 @@
       "id": "abc165_b",
       "label": "B",
       "title": "1%",
-      "url": "https://atcoder.jp/contests/abc165/tasks/abc165_b"
+      "url": "https://atcoder.jp/contests/abc165/tasks/abc165_b",
+      "directory": {
+        "path": "b",
+        "testdir": "tests"
+      }
     },
     {
       "id": "abc165_c",
