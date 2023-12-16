@@ -21,15 +21,15 @@ int main() {
   long long X;
   cin >> X;
   long long saving = 100;
-  int day = 1;
+  int year = 1;
 
   while (true) {
-    saving *= 1.01;
+    saving += saving / 100;
     if (saving >= X) {
       break;
     }
-    day++;
+    year++;
   }
-  cout << day << endl;
+  cout << year << endl;
   return 0;
 }
