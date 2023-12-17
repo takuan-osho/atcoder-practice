@@ -9,7 +9,11 @@
       "id": "abc162_a",
       "label": "A",
       "title": "Lucky 7",
-      "url": "https://atcoder.jp/contests/abc162/tasks/abc162_a"
+      "url": "https://atcoder.jp/contests/abc162/tasks/abc162_a",
+      "directory": {
+        "path": "a",
+        "testdir": "tests"
+      }
     },
     {
       "id": "abc162_b",
