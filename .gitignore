@@ -33,3 +33,6 @@
 
 ## atcoder-cli specific files
 tests
+
+# vscode
+.vscode
