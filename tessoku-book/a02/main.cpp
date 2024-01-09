@@ -10,13 +10,18 @@ int main() {
   for (auto &a : A) {
     cin >> a;
   }
+  bool answer = false;
 
   for (auto a : A) {
     if (a == X) {
-      cout << "Yes" << endl;
-      return 0;
+      answer = true;
     }
   }
-  cout << "No" << endl;
+
+  if (answer == true) {
+    cout << "Yes" << endl;
+  } else {
+    cout << "No" << endl;
+  }
   return 0;
 }
