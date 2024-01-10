@@ -472,7 +472,10 @@
       "id": "tessoku_book_ca",
       "label": "B02",
       "title": "Divisor Check",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_ca"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_ca",
+      "directory": {
+        "path": "b02"
+      }
     },
     {
       "id": "tessoku_book_cb",
