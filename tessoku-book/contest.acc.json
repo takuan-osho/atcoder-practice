@@ -499,7 +499,11 @@
       "id": "tessoku_book_cc",
       "label": "B04",
       "title": "Binary Representation 2",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_cc"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_cc",
+      "directory": {
+        "path": "b04",
+        "testdir": "tests"
+      }
     },
     {
       "id": "tessoku_book_ce",
