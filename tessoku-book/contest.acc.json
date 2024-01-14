@@ -48,7 +48,11 @@
       "id": "tessoku_book_e",
       "label": "A05",
       "title": "Three Cards",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_e"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_e",
+      "directory": {
+        "path": "a05",
+        "testdir": "tests"
+      }
     },
     {
       "id": "math_and_algorithm_ai",
