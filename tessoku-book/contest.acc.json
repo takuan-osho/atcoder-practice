@@ -517,7 +517,11 @@
       "id": "tessoku_book_ce",
       "label": "B06",
       "title": "Lottery",
-      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_ce"
+      "url": "https://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_ce",
+      "directory": {
+        "path": "b06",
+        "testdir": "tests"
+      }
     },
     {
       "id": "math_and_algorithm_al",
