@@ -1,0 +1,28 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "linear search",
+  "steps": [
+    {
+      "file": "a02/main.cpp",
+      "description": "問題は以下の通り\nhttps://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_b\n\n問題文\nN 個の整数 A1, A2, ⋯, ANの中に、整数 X が含まれるかどうかを判定するプログラムを作成してください。\n\n制約\n* N は 1 以上 100 以下の整数\n* X は 1 以上 100 以下の整数\n* A1 , A2, ⋯, AN は 1 以上 100 以下の整数\n\n入力\n入力は以下の形式で標準入力から与えられます。\n\n```\nN X\nA1 A2 ⋯ AN\n```\n\n出力\n整数 X が含まれるとき Yes、含まれないとき No と出力してください。",
+      "line": 1,
+      "title": "Problem Statement"
+    },
+    {
+      "file": "a02/main.cpp",
+      "description": "vector<T>で変数を宣言して、autoを活用したforで回して入力された値を入れていく手法。\nこれは他の問題でも多く使えるテクニックかつC++をやっていないと分からない所。\nここでは値を変更していないから&は使わなくていいはず。",
+      "line": 8,
+      "title": "a02/main.cpp"
+    },
+    {
+      "file": "a02/main.cpp",
+      "description": "頭からなめていって探している。ここが全探索の箇所。\n計算量はO(N)\n線形探索法というアルゴリズムで、全探索の一種とのこと。",
+      "line": 15
+    },
+    {
+      "file": "b02/main.cpp",
+      "description": "「100の約数であるものは存在しますか」という問いを答えるようにコードに書くとこういう判定になる。\n「0からインクリメントしていった数で割ってその余りが0であるかどうか」という風に言い換えて表現している。\nこれは「あるかどうか」だけなのでanswerというflagにtrue or falseを入れるだけで解決してる。",
+      "line": 11
+    }
+  ]
+}
