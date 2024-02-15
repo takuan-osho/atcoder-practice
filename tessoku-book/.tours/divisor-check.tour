@@ -1,0 +1,16 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "divisor check",
+  "steps": [
+    {
+      "file": "b02/main.cpp",
+      "description": "## 問題文ソース\nhttps://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_ca\n\n## 問題文\nA 以上 B 以下の整数のうち、100 の約数であるものは存在しますか。\n\n## 制約\n\n* 1≤A≤B≤100\n* 入力はすべて整数\n\n## 入力\n入力は以下の形式で標準入力から与えられます。\n\n```\nA B\n```\n\n## 入力例 1\n\n```\n5 20\n```\n\n## 出力例 1\n\n```\nYes\n```\n\n## 入力例 2\n\n```\n6 9\n```\n\n## 出力例 2\n\n```\nNo\n```",
+      "line": 1
+    },
+    {
+      "file": "b02/main.cpp",
+      "description": "「100の約数であるものは存在しますか」という問いを答えるようにコードに書くとこういう判定になる。 「0からインクリメントしていった数で割ってその余りが0であるかどうか」という風に言い換えて表現している。 これは「あるかどうか」だけなのでanswerというflagにtrue or falseを入れるだけで解決してる。",
+      "line": 11
+    }
+  ]
+}
