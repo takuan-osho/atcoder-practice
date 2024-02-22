@@ -4,7 +4,7 @@
   "steps": [
     {
       "file": "a02/main.cpp",
-      "description": "問題は以下の通り\nhttps://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_b\n\n問題文\nN 個の整数 A1, A2, ⋯, ANの中に、整数 X が含まれるかどうかを判定するプログラムを作成してください。\n\n制約\n* N は 1 以上 100 以下の整数\n* X は 1 以上 100 以下の整数\n* A1 , A2, ⋯, AN は 1 以上 100 以下の整数\n\n入力\n入力は以下の形式で標準入力から与えられます。\n\n```\nN X\nA1 A2 ⋯ AN\n```\n\n出力\n整数 X が含まれるとき Yes、含まれないとき No と出力してください。",
+      "description": "## 問題文ソース\nhttps://atcoder.jp/contests/tessoku-book/tasks/tessoku_book_b\n\n\n## 問題文\nN 個の整数 A1, A2, ⋯, ANの中に、整数 X が含まれるかどうかを判定するプログラムを作成してください。\n\n## 制約\n* N は 1 以上 100 以下の整数\n* X は 1 以上 100 以下の整数\n* A1 , A2, ⋯, AN は 1 以上 100 以下の整数\n\n## 入力\n入力は以下の形式で標準入力から与えられます。\n\n```\nN X\nA1 A2 ⋯ AN\n```\n\n## 出力\n整数 X が含まれるとき `Yes`、含まれないとき `No` と出力してください。",
       "line": 1,
       "title": "Problem Statement"
     },
